@@ -19,7 +19,7 @@ def main():
 
     # Las siguientes líneas de código configuran e inician un servidor que aloja nuestro
     # sitio web localmente
-    server = make_server('0.0.0.0', 8081, application)
+    server = make_server('0.0.0.0', 8000, application)
     server.serve_forever()
 
 main()
